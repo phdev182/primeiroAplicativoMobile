@@ -12,7 +12,7 @@ export default function Login({ history }) {
      e.preventDefault();
 
     const response = await api.post('/devs', {
-        username:username
+        username,
     });
     console.log(response)
 
